@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+
+    </head>
+
+<body>
+    <form>
+        <h2>Survey Form</h2>
+
+        <!-- Section 1: Personal Information -->
+        <h3>Personal Information</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">age.</label>
+        <input type="age" id="age" name="age" required>
+
+
+        <!-- Section 2: Survey Questions -->
+        <h3>Survey Questions</h3>
+        <label for="question1">Question 1:</label>
+        <textarea id="question1" name="question1" rows="4" required></textarea>
+
+        <label for="question2">Question 2:</label>
+        <input type="text" id="question2" name="question2" required>
+
+        <label for="question3">Question 3:</label>
+        <select id="question3" name="question3" required>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+
+
+        <label>
+            How satisfied are you with your recent purchase?
+        </label>
+        <input type="radio" id="satisfaction-very-satisfied" name="satisfaction" value="very-satisfied">
+        <label for="satisfaction-very-satisfied">Very Satisfied</label>
+
+        <input type="radio" id="satisfaction-satisfied" name="satisfaction" value="satisfied">
+        <label for="satisfaction-satisfied">Satisfied</label>
+
+        <input type="radio" id="satisfaction-neutral" name="satisfaction" value="neutral">
+        <label for="satisfaction-neutral">Neutral</label>
+
+        <input type="radio" id="satisfaction-unsatisfied" name="satisfaction" value="unsatisfied">
+        <label for="satisfaction-unsatisfied">Unsatisfied</label>
+
+        <input type="radio" id="satisfaction-very-unsatisfied" name="satisfaction" value="very-unsatisfied">
+        <label for="satisfaction-very-unsatisfied">Very Unsatisfied</label>
+
+
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Select rating</option>
+            <option value="5">5 stars</option>
+            <option value="4">4 stars</option>
+            <option value="3">3 stars</option>
+            <option value="2">2 stars</option>
+            <option value="1">1 star</option>
+        </select>
+
+
+
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
